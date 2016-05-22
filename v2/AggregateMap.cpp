@@ -26,7 +26,7 @@
 #include "AggregateMap.h"
 
 void
-aggregateMaps(DoubleRaster & map, DoubleRaster & template_m, DoubleRaster & output_map_depth, DoubleRaster & output_map_proportion, bool ignore_na, bool do_max, bool majority)
+aggregateMaps(DoubleRaster & map, IntRaster & template_m, DoubleRaster & output_map_depth, DoubleRaster & output_map_proportion, bool ignore_na, bool do_max, bool majority)
 {
 //	output_map_depth->SetNoDataValue(out_map_no_data_val);
 //    output_map_proportion->SetNoDataValue(out_map_no_data_val);

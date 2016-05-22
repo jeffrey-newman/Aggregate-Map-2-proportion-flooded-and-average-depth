@@ -22,7 +22,7 @@ SET (AGGREGATE_HEADERS
 		Neighbourhood.h
 		RasterCoordinates.h
 		Types.h
-
+        AggregateMap.h
     )
 
 SET (AGGREGATE_SOURCES 

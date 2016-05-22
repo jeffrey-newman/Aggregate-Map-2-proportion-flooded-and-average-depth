@@ -13,8 +13,9 @@
 
 
 typedef blink::raster::gdal_raster<double> DoubleRaster;
+typedef blink::raster::gdal_raster<int> IntRaster;
 
 void
-aggregateMaps(DoubleRaster & map, DoubleRaster & template_m, DoubleRaster & output_map_depth, DoubleRaster & output_map_proportion, bool ignore_na = true, bool do_max = false, bool majority = false);
+aggregateMaps(DoubleRaster & map, IntRaster & template_m, DoubleRaster & output_map_depth, DoubleRaster & output_map_proportion, bool ignore_na = true, bool do_max = false, bool majority = false);
 
 #endif /* AggregateMap_h */
