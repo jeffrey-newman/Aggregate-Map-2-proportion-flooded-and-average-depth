@@ -24,4 +24,4 @@
 //boost::shared_ptr<std::vector<std::pair<int, int> > > find_immediate_adjacents(Map_Double_SPtr map, unsigned long i, unsigned long j);
 
 template
-BlockSetSPtr getBlock(blink::raster::gdal_raster<double> & map, GeoTransform & transform, Position top_left, Position bottom_left, Position top_right);
+BlockSetSPtr getBlock(blink::raster::gdal_raster<float> & map, GeoTransform & transform, Position top_left, Position bottom_left, Position top_right);
